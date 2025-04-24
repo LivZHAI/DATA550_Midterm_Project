@@ -3,9 +3,10 @@ title: "Midterm Report"
 author: "Mingrui Li, Siyu Zhai, Youwei Hu and Yuchi Liu"
 output: html_document
 ---
-```{r, set-chunk-opt}
+
+```{r, set-chunk-opt, include=FALSE}
 library(knitr)
-opts_chunk$set(
+knitr::opts_chunk$set(
   echo = FALSE, warning = FALSE, message = FALSE,
   fig.align = "center"
 )
